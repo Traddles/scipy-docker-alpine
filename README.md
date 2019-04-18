@@ -4,3 +4,13 @@
 
 Base image of docker, python and virtualenv.
 
+## Create virtualenv with numpy and scipy (tested)
+```
+mkdir app && cd app
+virtualenv --no-site-packages -p python3 venv
+. venv/bin/activate
+ls venv/include/python3.6m/
+pip install numpy
+pip install scipy
+```
+
