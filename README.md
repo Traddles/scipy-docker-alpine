@@ -1,6 +1,8 @@
-# docker-python-virtualenv
-[![](https://images.microbadger.com/badges/image/vladshub/python-virtualenv.svg)](http://microbadger.com/images/vladshub/python-virtualenv "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/vladshub/python-virtualenv.svg)](http://microbadger.com/images/vladshub/python-virtualenv "Get your own version badge on microbadger.com")
+# Alpine Docker Image for SciPy (Python 3.6.8)
+
+This image provides a lightweight (note this is used loosely when compared to the based image) runtime environment for SciPy codebases. This is an interim measure while the `py-numpy`, `py-matplotlib` and `py-scipy` available via the `@community` and `@testing` repositories are unstable. Alternatively, this allows for the latest version of these packages to be used before they are available in the main repository.
+
+This image is constructed using python:3.6-alpine as base image. Latest python3-dev is still on 3.6.8.
 
 Base image of docker, python and virtualenv. Installing numpy, scipy and matplotlib works.
 
